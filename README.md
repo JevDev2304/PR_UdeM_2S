@@ -1,4 +1,4 @@
-#Trabajo de Cristian Franco Raigosa y Juan Esteban Valdés
+# Trabajo de Cristian Franco Raigosa y Juan Esteban Valdés
 
 Este proyecto se puede ejecutar utilizando Docker. A continuación se detallan las instrucciones para correr y obtener la imagen más reciente de Docker para el proyecto.
 
