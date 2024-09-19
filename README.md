@@ -15,6 +15,14 @@ Para ejecutar el contenedor en segundo plano y exponer el puerto 8082 de tu máq
 sudo docker run -d -p 8082:80 docker.io/jevdev230423/mi_proyecto:latest
 ```
 
+## Ejecutar el Contenedor con `index.html`
+
+Para ejecutar el contenedor en segundo plano y exponer el puerto 8082 de tu máquina local al puerto 80 del contenedor, montando el archivo `index.html` desde el directorio actual en el contenedor, usa el siguiente comando:
+
+```bash
+sudo docker run -d -p 8082:80 -v $(pwd)/index.html:/usr/share/nginx/html/index.html docker.io/jevdev230423/mi_proyecto:latest
+```
+
 ## Descargar la Imagen
 
 Si necesitas descargar la última versión de la imagen de Docker antes de ejecutar el contenedor, puedes usar el siguiente comando:
@@ -22,6 +30,7 @@ Si necesitas descargar la última versión de la imagen de Docker antes de ejecu
 ```bash
 sudo docker pull docker.io/jevdev230423/mi_proyecto:latest
 ```
+
 
 ## Acceso
 
