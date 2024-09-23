@@ -12,7 +12,7 @@ Se puede ejecutar utilizando Docker. A continuación se detallan las instruccion
 Para ejecutar el contenedor en segundo plano y exponer el puerto 8082 de tu máquina local al puerto 80 del contenedor, usa el siguiente comando:
 
 ```bash
-sudo docker run -d -p 8082:80 docker.io/jevdev230423/mi_proyecto:latest
+ docker run -d -p 8082:80 -v volumen_juanes_cristian:/usr/share/nginx/html 21af51867224
 ```
 
 ## Descargar la Imagen
